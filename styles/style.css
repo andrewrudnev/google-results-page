@@ -1,0 +1,85 @@
+/* **FOR STYLING HEADER** */
+
+/* **FOR STLING ADDITIONAL GOOGLE SERVICES TAB** */
+#google_services p, #google_services a, #google_services form {
+	display: inline-block;
+	position: relative;
+	left: 110px;
+	padding-left: 10px;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #777;
+}
+
+#google_services p, #google_services a {
+	text-decoration: none;
+}
+
+#google_services p:hover, #google_services a:hover {
+	font-weight: bold;
+}
+
+/* **FOR STYLING RESULT AMOUNT LINE** */
+#result_amount {
+	position: relative;
+	left: 120px;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #808080;
+}
+
+/* **FOR STYLING SEARCH RESULTS** */ 
+#search_results {
+	position: relative;
+	left: 120px;
+	width: 500;
+}
+
+#search_results .result_hyperlink {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	color: #1a0dab;
+}
+
+#search_results .result_hyperlink:hover {
+	text-decoration: underline;
+}
+
+#search_results .website_url {
+	margin: .75;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #006621;
+}
+
+#search_results .site_summary {
+	margin-top: 0;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #545454;
+}
+
+/* **FOR STYLING RELATED SEARCHES TABLE** */
+#related_searches tr th {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	color: #808080;
+	text-align: left;
+	padding-right: 10px;
+}
+
+#related_searches tr th a {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #1a0dab;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#related_searches tr th a:hover {
+	text-decoration: underline;
+}
+
+/* **FOR STYLING FOOTER** */
