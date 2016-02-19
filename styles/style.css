@@ -1,11 +1,59 @@
-/* **FOR STYLING HEADER** */
+/* **FOR STYLING NAV BAR** */
+#nav_bar {
+	position: relative;
+	top: -10px;
+	left: -8px;
+	padding-bottom: 15px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+
+#google_logo {
+	position: relative;
+	width: 85px;
+	height: 30px;
+	top: 15px;
+	left: 20px;
+}
+
+body div form {
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	left: 34px;
+}
+
+body div form input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	height: 30px;
+	width: 580px;
+}
+
+#search_magnifying_glass {
+	position: relative;
+	width: 34px;
+	height: 34px;
+	left: 30px;
+	top: 15px;
+	border-radius: 2px;
+}
+
+#app_drawer {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	left: 45%;
+	top: 10px;
+}
 
 /* **FOR STLING ADDITIONAL GOOGLE SERVICES TAB** */
 #google_services p, #google_services a, #google_services form {
 	display: inline-block;
 	position: relative;
-	left: 110px;
-	padding-left: 10px;
+	left: 95px;
+	padding-left: 25px;
 	font-family: arial, sans-serif;
 	font-size: small;
 	color: #777;
@@ -19,13 +67,19 @@
 	font-weight: bold;
 }
 
+#google_services {
+	border-bottom: 1px solid #e5e5e5;
+}
+
 /* **FOR STYLING RESULT AMOUNT LINE** */
 #result_amount {
 	position: relative;
 	left: 120px;
 	font-family: arial, sans-serif;
-	font-size: small;
+	font-size: small;	
 	color: #808080;
+	width: 500;
+	padding-bottom: 10px;
 }
 
 /* **FOR STYLING SEARCH RESULTS** */ 
@@ -62,6 +116,11 @@
 }
 
 /* **FOR STYLING RELATED SEARCHES TABLE** */
+#related_searches {
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
 #related_searches tr th {
 	font-family: arial, sans-serif;
 	font-size: 18px;
@@ -83,3 +142,23 @@
 }
 
 /* **FOR STYLING FOOTER** */
+#footer {
+	position: relative;
+	top: 20px;
+	background-color: #f1f1f1;
+	border-top: 1px solid #e5e5e5;
+}
+
+#footer a {
+	position: relative;
+	left: 120px;
+	font-family: arial, sans-serif;
+	font-size: small;
+	text-decoration: none;
+	color: #777;
+	padding-right: 30px;
+}
+
+#footer a:hover {
+	font-weight: bold;
+}
